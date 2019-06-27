@@ -11,11 +11,13 @@ Stack Overflow is something which every programmer use one way or another. Each 
 ### Source: https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/
 
 ### Type of Machine Learning Problem 
-It is a multi-label classification problem 
+It is a multi-label classification problem
+
 **Multi-label Classification:** Multilabel classification assigns to each sample a set of target labels. This can be thought as predicting properties of a data-point that are not mutually exclusive, such as topics that are relevant for a document. A question on Stackoverflow might be about any of C, Pointers, FileIO and/or memory-management at the same time or none of these. 
 **Credit: http://scikit-learn.org/stable/modules/multiclass.html
 
 ### Techniques used: Feature vectorization with Tf-Idf and n-grams, Onevsall logistic regression, Micro-averaged F1-score as performance metric.
 
-Programming languages: Python, SQL
-Sofware tools and libraries: Pandas, Numpy, sqlite3, sqlalchemy, NLTK, Sci-kit learn, seaborn, matplotlib, wordcloud 
+Programming languages: Python, SQL.
+
+Software tools and libraries: Pandas, Numpy, sqlite3, sqlalchemy, NLTK, Sci-kit learn, seaborn, matplotlib, wordcloud 
